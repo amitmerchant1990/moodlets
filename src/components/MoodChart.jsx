@@ -15,9 +15,11 @@ export default function MoodChart({ moods }) {
   const chartRef = useRef(null);
 
   useEffect(() => {
+    const chartInstance = chartRef.current;
+  
     return () => {
-      if (chartRef.current?.destroy) {
-        chartRef.current.destroy();
+      if (chartInstance && chartInstance.destroy) {
+        chartInstance.destroy();
       }
     };
   }, []);

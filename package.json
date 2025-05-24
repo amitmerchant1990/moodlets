@@ -1,5 +1,5 @@
 {
-  "name": "micro-mood-logger",
+  "name": "moodlets",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
