@@ -89,9 +89,9 @@ function WeeklyActions({ moods }) {
   return (
     <div className="p-6 border border-gray-200 rounded-lg bg-gray-50">
       <h2 className="text-lg font-semibold text-center mb-4">{randomSet.title}</h2>
-      <ul className="list-disc list-inside text-gray-700 space-y-1">
+      <ul className="text-gray-700 space-y-3">
         {randomSet.actions.map((action, idx) => (
-          <li key={idx}>{action}</li>
+          <li className="relative pl-6 before:content-['•'] before:absolute before:left-0 before:top-0" key={idx}>{action}</li>
         ))}
       </ul>
     </div>
