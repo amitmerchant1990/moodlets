@@ -2,7 +2,9 @@
 
 This is a simple mood tracker app built with React. It allows users to log their moods and view their mood history.
 
-Try it out live [Moodlets](https://moodlets.pages.dev).
+[![Moodlets](/public/og-image.png)](https://moodlets.pages.dev)
+
+Try it out live: [Moodlets](https://moodlets.pages.dev)
 
 ## Features
 
@@ -13,3 +15,7 @@ Try it out live [Moodlets](https://moodlets.pages.dev).
 - Responsive design for mobile and desktop
 - Affirmations to boost mood
 - Weekly mood summary 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](license.md) file for details.
