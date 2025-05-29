@@ -5,7 +5,7 @@ export default function Header() {
     <header className="w-full px-6 py-4 border-b bg-white shadow-sm">
       <div className="max-w-5xl mx-auto flex justify-between items-center">
         <div>
-          <h1 className="sm:text-3xl md:text-3xl text-2xl font-bold text-gray-800 flex items-center gap-2">
+          <h1 className="sm:text-3xl md:text-3xl text-2xl font-bold text-gray-800 flex items-center gap-2 font-fraunces">
             <span>Moodlets</span>
           </h1>
           <p className="sm:text-xs text-sm text-gray-500">A Micro Mood Logger</p>
