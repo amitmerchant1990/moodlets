@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 
+@keyframes floatUpFade {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+}
+
+.plus-one {
+  position: absolute;
+  font-weight: bold;
+  color: #10b981; /* tailwind's emerald-500 */
+  animation: floatUpFade 0.8s ease-out forwards;
+  pointer-events: none;
+  z-index: 50;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
